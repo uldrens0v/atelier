@@ -1,0 +1,42 @@
+.export-name-dialog {
+ width:min(92vw,490px);
+ max-width:none;
+ padding:0;
+ border:1px solid #48484f;
+ border-radius:15px;
+ color:#f1f1f3;
+ background:#18181d;
+ box-shadow:0 24px 100px #000a;
+}
+.export-name-dialog::backdrop{background:#07070bc4}
+.export-name-dialog form{padding:28px}
+.export-name-dialog .export-name-heading {
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ gap:16px;
+ height:auto;
+ padding:0;
+ border:0;
+ margin-bottom:25px;
+}
+.export-name-heading h2{margin:0;font:600 28px/1.1 'DM Sans',sans-serif;letter-spacing:-.6px}
+.export-name-heading button{width:34px;height:34px;font-size:22px;line-height:1}
+.export-name-dialog label{display:block;margin-bottom:8px;font-size:14px}
+.export-name-dialog input {
+ display:block;
+ width:100%;
+ min-height:48px;
+ border:1px solid #64646c;
+ border-radius:7px;
+ background:#111116;
+ color:#f7f7fa;
+ padding:11px 13px;
+ font:16px 'DM Sans',sans-serif;
+}
+.export-name-default{font-size:13px;margin:12px 0 26px;color:#afafb7;overflow-wrap:anywhere}
+.export-name-default span{margin-left:7px;color:#e1e1e6}
+.export-name-actions{display:flex;flex-direction:row-reverse;gap:10px}
+.export-name-actions button{min-height:40px;justify-content:center;padding:10px 15px;font-size:14px}
+.export-name-actions button:disabled{cursor:default}
+@media(max-width:480px){.export-name-dialog form{padding:22px}.export-name-actions button{flex:1}}

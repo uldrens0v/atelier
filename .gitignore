@@ -1,0 +1,9 @@
+node_modules/
+.atelier-assets/
+__pycache__/
+.env*
+*.tar
+*.fantome
+*.mp4
+*.wav
+*.pyc
